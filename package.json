@@ -1,0 +1,25 @@
+{
+  "name": "55-agenciaviajesnode",
+  "version": "1.0.0",
+  "description": "Primer proyecto con NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "author": "Mauricio Sarmiento",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "pug": "^3.0.0",
+    "sequelize": "^6.5.0",
+    "server": "^1.0.32"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
